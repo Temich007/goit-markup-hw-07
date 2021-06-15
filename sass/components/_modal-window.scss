@@ -24,18 +24,20 @@
   border-radius: 50%;
   cursor: pointer;
   padding: 0;
+
+  &:hover .modal-close-bth-icon,
+  &:focus .modal-close-bth-icon{
+  fill: var(--accent-color);
+  }
 } 
-
-.modal-close-bth:hover .modal-close-bth-icon,
-.modal-close-bth:focus .modal-close-bth-icon{
-fill: var(--accent-color);
-}
-
-
-
 
 .modal-close-bth-icon{
   width: 18px;
   height: 18px;
    fill: var(--primary-text-color);
 }
+
+
+
+
+
