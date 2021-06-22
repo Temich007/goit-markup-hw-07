@@ -5,11 +5,11 @@ text-align: center;
 letter-spacing: 0.03em;
 margin-bottom: 50px;
 }
-.clients-list{
+.clients__list{
   display: flex;
   justify-content: space-between;
 }
-.clients-list-link{
+.clients__link{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -29,12 +29,12 @@ margin-bottom: 50px;
 } 
 
 
-.clients-link-icon{
+.clients__link-icon{
   fill:#AFB1B8; 
    transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
-   .clients-list-link:hover  &,
-   .clients-list-link:focus  &{
+   .clients__link:hover  &,
+   .clients__link:focus  &{
     fill: var(--accent-color);
   }
 }

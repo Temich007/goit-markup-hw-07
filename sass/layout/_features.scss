@@ -1,3 +1,6 @@
+.features{
+  padding-top: 94px;
+}
 .features__title {
   font-weight: 700;
   font-size: 14px;
@@ -6,6 +9,7 @@
   text-transform: uppercase;
   color: var( --primary-text-color);
 }
+
 .features__text {
   font-size: 14px;
   line-height: 1.71;
@@ -14,19 +18,18 @@
   margin-top: 10px;
 }
 
-.container .features{
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-
-}
-
 .features__list-icons{
   width: 70px;
   height: 70px;
 }
 
-.features__our{
+.features__list{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.features__thumb{
   display: flex;
   justify-content: center;
   align-items: center;
@@ -37,7 +40,7 @@
   border-radius: 4%;
 }
 
-.features__list-item{
+.features__item{
   &:not(:last-child){
   margin-right: 30px;
   }
